@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.4Payments"
+        tools:targetApi="31">
+        <activity
+            android:name=".DigitsenhaclienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.4Payments.NoActionBar"/>
+
+        <activity
+            android:name=".ViaclienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenhaparceladoclienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenhadebitoclienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenhacreditoavistaclienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenhaparceladoestabelecimentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SenhacreditoavistaestabelecimentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemovacartaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModalidadefinalcreditoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModalidadefinaldoisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModoEntradadoisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionaprovadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProcessandotransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DigitsenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModalidadefinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactioncanceladadoisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModoEntradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactioncanceladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModalidadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DigitvalorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

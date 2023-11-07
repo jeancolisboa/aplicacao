@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModalidadefinalcreditoActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Escolha uma opção"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"/>
+
+    <TextView
+        android:id="@+id/avista"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Á Vista Loja"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        android:background="@drawable/bordas_arrendondadas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:layout_constraintHorizontal_bias="0"/>
+
+    <TextView
+        android:id="@+id/cliente"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Á vista Cliente"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="@drawable/bordas_arredondadas2"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178"/>
+
+    <TextView
+        android:id="@+id/avistaaestabelecimento"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bordas_arrendondadas"
+        android:gravity="center"
+        android:text=">"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/avistaestabelecimento"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Parcelado Loja"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        android:background="@drawable/bordas_arrendondadas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        app:layout_constraintHorizontal_bias="0"/>
+
+    <TextView
+        android:id="@+id/avistaacliente"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bordas_arrendondadas"
+        android:gravity="center"
+        android:text=">"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:id="@+id/clientedois"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Parcelado Cliente"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="@drawable/bordas_arredondadas2"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364"/>
+
+    <Button
+        android:id="@+id/cancelarvaidois"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Cancelar"
+        android:textSize="20sp"
+        android:background="@drawable/bordas_arrendondadas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9915555"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/estilonegar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9999"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
